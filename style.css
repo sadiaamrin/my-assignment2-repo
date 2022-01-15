@@ -1,0 +1,74 @@
+.flex{
+    display: flex;
+    margin:50px;
+
+}
+}
+.top-section{
+    width: 50%;
+}
+.top-section img{
+    width: 80%;
+    margin-left:50px;
+}
+
+.top-header{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.button{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    color:black;
+    border:1px solid;
+    background-color: rgb(226, 85, 132);
+    color: white;
+    border-radius:20px;
+
+}
+.p-tag{
+    margin-bottom: 50px;
+}
+.middle-part1{
+    text-align:center;
+    font-family:'Be Vietnam Pro', sans-serif;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+.course{
+    margin:10px;
+    box-shadow: 0px 0px 10px;
+    border-radius: 5px;
+    padding:10px;
+}
+.see-more{
+    color: rgb(226, 85, 132);
+    justify-content:flex-start;
+}
+
+.middle-part{
+    margin-left: 50px;
+}
+.middle-header{
+    font-size: 30px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+footer{
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    margin-top: 40px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 20px 0;
+}
+.footer-style{
+    margin: 0;
+}
