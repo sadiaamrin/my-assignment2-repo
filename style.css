@@ -47,6 +47,14 @@
     border-radius: 5px;
     padding:10px;
 }
+.filled{
+    color: gold;
+}
+.empty{
+color: gray;
+}
+
+
 .see-more{
     color: rgb(226, 85, 132);
     justify-content:flex-start;
