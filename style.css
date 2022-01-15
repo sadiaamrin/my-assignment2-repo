@@ -1,4 +1,8 @@
-.body{
+.top{
+    font-size:30px;
+    margin-left:50px;
+    margin-top: 30px;
+    margin-bottom:30px;
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 .flex{
@@ -30,6 +34,12 @@
     background-color: rgb(226, 85, 132);
     color: white;
     border-radius:20px;
+
+}
+.picture:hover{
+    width: 400px;
+    height: 200px;
+    transform: rotate(180deg);
 
 }
 .p-tag{
@@ -84,4 +94,27 @@ footer{
 .footer-style{
     margin: 0;
 }
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    body{
+ 
+     overflow-x: hidden;
+     max-width: 100%;
+    }
+   .courses{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .flex{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
     
+    }
+    .flex img{
+        width: 100%;
+    }
+ 
+}
